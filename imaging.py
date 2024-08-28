@@ -155,5 +155,5 @@ def tclean(disk, line,image, robust=None, start=None, width=None, nchan=None,  c
         return                
 
 # call the function
-tclean(disk='GW_Ori', line='co', image='12m_archival',  robust=0.2,  start='13.4km/s', width='0.1km/s', nchan=11,  cyclefactor=0, uvtaper='1.0arcsec',mosweight=True)
+tclean(disk='GW_Ori', line='co', image='12m_combine',  robust=0.2,  start='13.4km/s', width='0.1km/s', nchan=11,  cyclefactor=0, uvtaper='1.0arcsec',mosweight=True)
 
